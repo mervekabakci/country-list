@@ -47,9 +47,20 @@ h1{
   background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .cards .card .card-title {
   font-size: 1.5em;
   font-weight: 700;
+}
+.cards .card .flag{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cards .card .flag img{
+  border: 1px solid gray
 }
